@@ -1,3 +1,0 @@
-<h1>Hello from <%= node['apache']['greeting'] %></h1>
-<p>My name is <%= node["hostname"] %>.</p>
-<p>This server has <%= node["memory"]["total"].to_i / 1024 %> MB memory</p>
