@@ -1,0 +1,1 @@
+default["lamp"]["sites"]["vineetmadan.in"] = { "port" => 80, "servername" => "vineetmadan.in", "serveradmin" => "admin@vineetmadan.in" }
