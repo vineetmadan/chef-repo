@@ -9,3 +9,4 @@ validation_client_name   "vineetmadan-validator"
 validation_key           "#{current_dir}/vineetmadan-validator.pem"
 chef_server_url          "https://api.opscode.com/organizations/vineetmadan"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor] = "Notepad"

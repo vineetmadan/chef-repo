@@ -26,7 +26,7 @@ node['lamp']['sites'].each do |sitename, data|
 		action :nothing
 	end
 
-	template "/etc/apache2/sites-available/#{sitename}.conf" do
+	template "/etc/apache2/sites-available/#{sitename}" do
 		source "virtualhosts.erb"
 		mode "0644"
 		variables(
